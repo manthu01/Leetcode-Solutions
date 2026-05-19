@@ -6,10 +6,7 @@ public:
 
         int n = nums1.size();
         int m = nums2.size();
-
-        sort(nums1.begin(), nums1.end());
-        sort(nums2.begin(), nums2.end());
-
+        
         int limit = min(n, m);
 
         int i = 0;
