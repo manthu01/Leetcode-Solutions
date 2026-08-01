@@ -7,7 +7,7 @@ public:
 
         for (int r = 0; r <= n; r++) {
             if (r == n || s[r] == ' ') {
-                if (r > l) {   // Ignore multiple spaces
+                if (r > l) {
                     if (ans.empty())
                         ans = s.substr(l, r - l);
                     else
